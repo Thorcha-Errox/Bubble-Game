@@ -12,7 +12,7 @@ html,body{
 #main{
     width: 100%;
     height: 100%;
-    background-color: rgb(117, 155, 117);
+    background-color: rgb(103, 163, 176);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ html,body{
     color: #fff;
     width: 100%;
     height: 100px;
-    background-color: rgb(32, 117, 32);
+    background-color: rgb(46, 161, 187);
 }
 .elem{
     display: flex;
@@ -61,11 +61,32 @@ html,body{
     gap: 2px;
 
 }
+#startBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(31, 153, 180);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#startBtn:hover {
+    background-color: rgb(103, 163, 176);
+}
+
+.gameover-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 #bubble{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: rgb(91, 160, 104);
+    background-color: rgb(46, 161, 187);
     color: #fff;
     display: flex;
     align-items: center;
@@ -74,6 +95,6 @@ html,body{
     cursor: pointer;
 }
 #bubble:hover{
-    background-color: rgb(69, 123, 79);
-    box-shadow: 0 0 1px 1px rgb(47, 84, 54);
+    background-color: rgb(40, 142, 165);
+    box-shadow: 0 0 1px 1px rgb(40, 109, 124);
 }
